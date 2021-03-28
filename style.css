@@ -69,13 +69,13 @@
 
 .list__task, .page__caption {
 
-  list-style:none;
+  list-style: none;
 
 }
 
 .task, .common__button{
 
-  outline:none;
+  outline: none;
 }
 
 .common__button {
@@ -226,19 +226,19 @@
 
 .list .list__task .task[type=text] {
 
-  display:none
+  display: none
 
 }
 
 .list .list__task.editMode .task[type=text] {
 
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 
 }
 
 .list .list__task.editMode .task {
 
-  display:none;
+  display: none;
 
 }
