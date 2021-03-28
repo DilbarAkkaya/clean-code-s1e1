@@ -67,7 +67,7 @@
 
 }
 
-.list__task, 
+.list__item, 
 .page__caption {
 
   list-style: none;
@@ -156,7 +156,7 @@
 
 /* Task list */
 
-.list__task {
+.list__item {
 
   overflow: hidden;
   padding: 20px 0;
@@ -168,19 +168,19 @@
 
 }
 
-.list__task > * {
+.list__item > * {
 
   vertical-align: middle;
 
 }
 
-.list__task > .list__checkbox {
+.list__item > .list__checkbox {
  
   margin: 0 10px;
 
 }
 
-.list__task > .task {
+.list__item > .task {
 
   padding-left: 10px;
   box-sizing: border-box;
@@ -189,13 +189,13 @@
 
 }
 
-.list__task >  .task {
+.list__item >  .task {
 
   width: 226px;
 
 }
 
-.list__task > .common__button.delete:hover {
+.list__item > .common__button.delete:hover {
 
   color: #cf2323;
 
@@ -226,20 +226,20 @@
 
 /* Edit Task */
 
-.list .list__task .task[type=text] {
+.list .list__item .task[type=text] {
 
   display: none;
 
 }
 
-.list .list__task.editMode .task[type=text] {
+.list .list__item.editMode .task[type=text] {
 
   display: inline-block;
   width: 224px;
 
 }
 
-.list .list__task.editMode .task {
+.list .list__item.editMode .task {
 
   display: none;
 
