@@ -67,13 +67,15 @@
 
 }
 
-.list__task, .page__caption {
+.list__task, 
+.page__caption {
 
   list-style: none;
 
 }
 
-.task, .common__button{
+.task, 
+.common__button{
 
   outline: none;
 }
