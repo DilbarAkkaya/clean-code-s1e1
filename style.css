@@ -43,6 +43,7 @@
   display: block;
   width: 500px;
   margin: 0 auto 0;
+  margin-top: 35px;
 
 }
 
@@ -116,6 +117,7 @@
 .task[type="text"] {
 
   margin: 0;
+  width: 440px;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
@@ -142,15 +144,16 @@
   margin: 0 0 20px;
 
 }
+
 .task {
 
   width: 318px;
 
 }
 
-.section > .common__button:hover {
+.section {
 
-  color: #0fc57c;
+  margin-bottom: 25px;
 
 }
 
@@ -192,12 +195,6 @@
 .list__item >  .task {
 
   width: 226px;
-
-}
-
-.list__item > .common__button.delete:hover {
-
-  color: #cf2323;
 
 }
 
